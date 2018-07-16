@@ -1,5 +1,6 @@
-Data acquisition methods have been described in detail in Walz et al. (2013, J Neurosci), but we outline them here and provide file information for clarity and ease of use.
+**The EEG component of this dataset is available as part of R1.0.0 at https://legacy.openfmri.org/dataset/ds000116/**
 
+Data acquisition methods have been described in detail in Walz et al. (2013, J Neurosci), but we outline them here and provide file information for clarity and ease of use.
 
 ————————————————————————————————
 ODDBALL PARADIGM
@@ -46,7 +47,7 @@ EOG - vertical
 chan 46-47 (or chan 35 in the re-referenced electrode space)
 ECG
 
-chan 48 (or chan 35 in the re-referenced electrode space)
+chan 48 (or chan 36 in the re-referenced electrode space)
 stimulus event markers
 baseline 0 value jumps to 25 at start of task
 value 125 is auditory standards
@@ -54,7 +55,7 @@ value 150 is auditory targets
 value 225 is visual standards
 value 250 is visual targets
 
-chan 49 (or chan 36 in the re-referenced electrode space)
+chan 49 (or chan 37 in the re-referenced electrode space)
 behavioral event markers
 baseline value 0 with value 100 indicating response 
 
@@ -161,6 +162,10 @@ fMRI ACQUISITION
 ————————————————————————————————
 PUBLICATIONS
 ————————————————————————————————
+
+Walz JM, Goldman RI, Carapezza M, Muraskin J, Brown TR, Sajda P (2015) “Prestimulus EEG Alpha Oscillations Modulate Task-Related fMRI BOLD Responses to Auditory Stimuli,” Neuroimage 113:153-163. doi: 10.1016/j.neuroimage.2015.03.028.
+
+Conroy B, Walz JM, Cheung B, Sajda P (2014) “Fast Simultaneous Training of Generalized Linear Models (FaSTGLZ)” arXiv 1307.8430.
 
 Walz JM, Goldman RI, Carapezza M, Muraskin J, Brown TR, Sajda P (2013) “Simultaneous EEG-fMRI Reveals Temporal Evolution of Coupling between Supramodal Cortical Attention Networks and the Brainstem,” J Neurosci 33(49):19212-22. doi: 10.1523/JNEUROSCI.2649-13.2013.
 
