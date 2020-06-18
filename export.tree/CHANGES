@@ -1,8 +1,0 @@
-3.0.0	2018-06-01
-
-	- fixed formatting of the author list
-	- added link to the EEG component of the dataset
-
-2.0.0 2016-10-10
-
-  - Converted to BIDS Standard
